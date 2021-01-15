@@ -1,0 +1,668 @@
+
+.header{
+	width: auto;
+	height: 80px;
+	background: #FFFFFF 0% 0% no-repeat padding-box;
+	box-shadow: 0px 3px 6px #00000029;
+	display: flex; 
+	flex-direction: row;
+	justify-content: center; 
+	align-items: center;
+}
+
+.logo img{
+	top:24px;
+	bottom:24.99px;
+	left:49.98px;
+	width: 91px;
+	height: 31px;
+	background: transparent url('img/Grupo 2.png') 0% 0% no-repeat padding-box;
+}
+
+.links{
+	display: flex;
+	flex-direction: row;
+	margin: auto;
+}
+
+.links li{
+	list-style: none;
+	margin: 0px 26px 0px 26px;
+}
+
+.links li a{
+	text-align: left;
+	font-family:'Roboto', sans-serif;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 32px; 
+	letter-spacing: 1.68px;
+	color: #0CCB97;
+	text-decoration: none;
+}
+
+.links li p{
+	margin:0px;
+	text-align: left;
+	font-family:'Roboto', sans-serif;
+	font-size:14px;
+	line-height:19px; 
+	letter-spacing: 0.98px;
+	color: #707070;
+}
+
+.button_header{
+	display:flex;
+	flex-direction:row;
+}
+
+.button_header button{
+	margin-left: 8px;
+	margin-right: 8px;
+}
+
+.button_header button#registrarme{
+	padding:10px 9px;
+	width: 160px;
+	height: 44px;
+	background: #0CCB97 0% 0% no-repeat padding-box;
+	border: 1px solid #0CCB97;
+	border-radius: 8px;
+	text-align: left;
+	font-family:'Roboto', sans-serif;
+	font-size:18px;
+	line-height: 24px;
+	letter-spacing: 1.26px;
+	color: #FFFFFF;
+}
+
+.button_header button#iniciarsesion{
+	padding: 11px 8px;
+	width: 160px;
+	height: 44px;
+	background: #FFFFFF 0% 0% no-repeat padding-box;
+	border: 1px solid #0CCB97;
+	border-radius: 8px;
+	text-align: left;
+	font-family:'Roboto', sans-serif;
+	font-size: 16px;
+	line-height: 21px;
+	letter-spacing: 1.12px;
+	color: #0CCB97;
+}
+
+h1{
+	text-align: center;
+	font: normal normal medium 40px/53px Roboto;
+	letter-spacing: 2.8px;
+	color: #707070;
+}
+
+h2{
+	text-align: center;
+	font: normal normal normal 21px/28px Roboto;
+	letter-spacing: 1.47px;
+	color: #707070;
+}
+
+.form_container{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.container_left{
+	position:relative;
+	width: 350px;
+	height: 60px;
+	background: #FFFFFF 0% 0% no-repeat padding-box;
+	border: 0.5px solid #707070;
+	border-radius: 8px 0px 0px 8px;
+}
+
+.container_left img{
+	position:absolute;
+	width: 30px;
+	height: 30px;
+	top:15px;
+	left:16px;
+}
+
+.container_left input{
+	position:absolute;
+	top:19px;
+	left:53px;
+	width: 285px;
+	height: 24px;
+	text-align: left;
+	font: normal normal normal 18px/24px Roboto;
+	letter-spacing: 1.26px;
+	color: #707070;
+	border:0px;
+}
+
+.container_right{
+	position:relative;
+	width: 350px;
+	height: 60px;
+	background: #FFFFFF 0% 0% no-repeat padding-box;
+	border: 0.5px solid #707070;
+}
+
+.container_right img{
+	position:relative;
+	width: 27px;
+	height: 27px;
+	top:17px;
+	left:17px;
+}
+
+.container_right input{
+	position:absolute;
+	top:19px;
+	left:63px;
+	bottom:17px;
+	width: 171px;
+	height: 24px;
+	text-align: left;
+	font: normal normal normal 18px/24px Roboto;
+	letter-spacing: 1.26px;
+	color: #707070;
+	border: 0px;
+}
+
+.button_form{
+	width: 77px;
+	height:60px;
+	background: #0CCB97 0% 0% no-repeat padding-box;
+	box-shadow: 3px 2px 6px #00000029;
+	border: 1px solid #0CCB97;
+	border-radius: 0px 8px 8px 0px;
+}
+
+.contenedor{
+	position:relative;
+	display: inline;
+	text-align:center;
+}
+
+.contenedor figure{
+	margin: 0;
+}
+
+.contenedor img{
+	margin: 0 auto;
+	width:100%;
+	height: 401px;
+	background: transparent url('img/NoPath.png') 0% 0% no-repeat padding-box;
+}
+
+#parrafo{
+	position:absolute;
+	top: 113px;
+	left: 50px;
+	right:861px;
+	bottom:240px;
+	width: 369px;
+	height: 48px;
+	text-align: left;
+	font-family: 'Roboto', sans-serif ;
+	font-weight: medium;
+	font-size:36px;
+	line-height:48px;
+	color: #FFFFFF;
+}
+
+#especialidad{
+	position:absolute;
+	top: 179px;
+	left: 50px;
+	right:828px;
+	bottom: 203px;
+	width: 402px;
+	height: 19px;
+	text-align: left;
+	font-family:'Roboto', sans-serif;
+	font-size:14px;
+	line-height:19px;
+	color: #FFFFFF;
+}
+
+button#descarga{
+	position:absolute;
+	top:243px;
+	bottom:114px;
+	left:50px;
+	right:1070px;
+	width: 160px;
+	height: 44px;
+	background: #FFFFFF 0% 0% no-repeat padding-box;
+	border: 1px solid #0CCB97;
+	border-radius: 8px;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-size:16px;
+	line-height:21px;
+	letter-spacing: 1.12px;
+	color: #0CCB97;
+}
+
+#google_play{
+	position:absolute;
+	top:253px;
+	left:238.24px;
+	width: 23px;
+	height: 25px;
+	background: transparent url('img/Icon awesome-google-play.png') 0% 0% no-repeat padding-box;
+}
+
+#apple{
+	position:absolute;
+	top:252.25px;
+	left:290.58px;
+	width: 21px;
+	height: 25px;
+	background: transparent url('img/Icon awesome-apple.png') 0% 0% no-repeat padding-box;
+}
+
+.turno{
+	margin-left: 45px;
+	margin-top:49px;
+	top:49px;
+	left:50px;
+	right:1000px;
+	width: 230px;
+	height: 35px;
+	text-align: left;
+	font-family:'Roboto', sans-serif ;
+	font-size:26px;
+	line-height: 35px;
+	letter-spacing: 1.82px;
+	color: #707070;
+}
+
+.profesionales{
+	margin-left: 45px;
+	margin-top: 3px;
+	top: 908px;
+	left: 50px;
+	width: 466px;
+	height: 21px;
+	text-align: left;
+	font: normal normal normal 16px/21px Roboto;
+	letter-spacing: 1.12px;
+	color: #707070;
+}
+
+.especialidades{
+	display: flex;
+	flex-direction: row;
+	margin-top:20px;
+}
+
+figure .especialidades img{
+	top: 949px;
+	left: 970px;
+	width: 260px;
+	height: 140px;
+	background: transparent url('img/NoPath - copia (3).png') 0% 0% no-repeat padding-box;
+}
+
+figure .especialidades img figcaption{
+	width: 66px;
+	height: 21px;
+	text-align: left;
+	font: normal normal medium 16px/21px Roboto;
+	letter-spacing: 1.12px;
+	color: #363535;
+}
+
+.footer{
+	display: flex;
+	flex-direction: row;
+	margin:auto;
+}
+
+footer{
+	top: 1260px;
+	left: 0px;
+	width: 1280px;
+	height: 250px;
+	background: #0CCB97 0% 0% no-repeat padding-box;
+	display: flex;
+	justify-content: space-between;
+}
+
+
+.pie_de_pagina li{
+	list-style: none;
+}
+
+.pie_de_pagina li a#trabaja{
+	text-decoration: none;
+	top: 1293px;
+	left: 50px;
+	width: 189px;
+	height: 24px;
+	text-align: left;
+	font: normal normal medium 18px/24px Roboto;
+	letter-spacing: 1.26px;
+	color: #FFFFFF;
+}
+
+.pie_de_pagina li a#terminos{
+	text-decoration: none;
+	top: 1333px;
+	left: 50px;
+	width: 211px;
+	height: 24px;
+	text-align: left;
+	font: normal normal medium 18px/24px Roboto;
+	letter-spacing: 1.26px;
+	color: #FFFFFF;
+}
+
+.pie_de_pagina li a#privacidad{
+	text-decoration: none;
+	top: 1373px;
+	left: 50px;
+	width: 270px;
+	height: 24px;
+	text-align: left;
+	font: normal normal medium 18px/24px Roboto;
+	letter-spacing: 1.26px;
+	color: #FFFFFF;
+}
+
+.pie_de_pagina li a#avisos{
+	text-decoration: none;
+	width: 126px;
+	height: 24px;
+	text-align: left;
+	font: normal normal medium 18px/24px Roboto;
+	letter-spacing: 1.26px;
+	color: #FFFFFF;
+}
+
+.pie_de_pagina li a#ayuda{
+	text-decoration: none;
+	width: 55px;
+	height: 24px;
+	text-align: left;
+	font: normal normal medium 18px/24px Roboto;
+	letter-spacing: 1.26px;
+	color: #FFFFFF;
+}
+
+footer .icon img{
+	top: 1327px;
+	left: 528px;
+	width: 197px;
+	height: 68px;
+	background: transparent url('img/Grupo 2.png') 0% 0% no-repeat padding-box;
+}
+
+footer .icon p{
+	top: 1419px;
+	left: 430px;
+	width: 415px;
+	height: 24px;
+	text-align: left;
+	font: normal normal medium 18px/24px Roboto;
+	letter-spacing: 1.26px;
+	color: #FFFFFF;
+	opacity: 0.76;
+}
+
+footer .app button{
+	top: 1310px;
+	left: 921px;
+	width: 309px;
+	height: 44px;
+	background: #FFFFFF 0% 0% no-repeat padding-box;
+	border: 1px solid #0CCB97;
+	text-align: left;
+	font: normal normal bold 20px/27px Roboto;
+	letter-spacing: 1.4px;
+	color: #0CCB97;
+}
+
+footer .app img{
+	top: 1317px;
+	left: 945px;
+	width: 21px;
+	height: 30px;
+	background: transparent url('img/Icon feather-smartphone.png') 0% 0% no-repeat padding-box;
+}
+
+
+@media screen and (min-width: 1920px){
+
+		.button_header button#registrarme{
+		padding: 10px 16px;
+		background: #0CCB97 0% 0% no-repeat padding-box;
+		border: 1px solid #0CCB97;
+		border-radius: 8px;
+		text-align: left;
+		font-family: 'Roboto', sans-serif;
+		font-size: 18px;
+		line-height: 24px;
+		letter-spacing: 1.26px;
+		color: #FFFFFF;
+		}
+
+		.button_header button#iniciarsesion{
+		padding: auto;
+		background: #FFFFFF 0% 0% no-repeat padding-box;
+		border: 1px solid #0CCB97;
+		border-radius: 8px;
+		text-align: left;
+		font-family: 'Roboto', sans-serif;
+		font-size: 16px;
+		line-height: 21px;
+		letter-spacing: 1.12px;
+		color: #0CCB97;
+	}
+
+	.contenedor{
+		position:relative;
+		display: inline-block;
+		text-align: center;
+	}
+
+	.contenedor figure{
+		margin-left:320px;
+	}
+
+	.contenedor img{
+		margin-top: 0 auto;
+		width:100%;
+		height: 401px;
+		background: transparent url('img/NoPath.png') 0% 0% no-repeat padding-box;
+	}
+
+	.centrado img{
+	 	padding-left:320px;
+		padding-left:320px;
+	}
+
+	#parrafo{
+		position:absolute;
+		top:113px;
+		left:420px;
+		right:1181px;
+		bottom:240px;
+		width: 369px;
+		height: 48px;
+		text-align: left;
+		font-weight: medium;
+		font-family: 'Roboto', sans-serif ;
+		font-size:36px;
+		line-height: 48px;
+		color: #FFFFFF;
+	}
+	 
+	#especialidad{
+		position:absolute;
+		top:179px;
+		left:420px;
+		right:828px;
+		bottom:203px;
+		width: 402px;
+		height: 19px;
+		text-align: left;
+		font-family: 'Roboto', sans-serif ;
+		font-size:14px;
+		line-height:19px;
+		color: #FFFFFF;
+	}
+
+
+	button#descarga{
+		position:absolute;
+		top:243px;
+		left:420px;
+		bottom:114px;
+		right:1070px;
+		width: 160px;
+		height: 44px;
+		background: #FFFFFF 0% 0% no-repeat padding-box;
+		border: 1px solid #0CCB97;
+		border-radius: 8px;
+		text-align: center;
+		font-family:'Roboto', sans-serif ;
+		font-size: 16px;
+		line-height: 21px;
+		letter-spacing: 1.12px;
+		color: #0CCB97;
+	}
+
+	#google_play{
+		position: absolute;
+		top:253px;
+		left:600px;
+		width: 23px;
+		height: 25px;
+		background: transparent url('img/Icon awesome-google-play.png') 0% 0% no-repeat padding-box;
+	}
+
+	#apple{
+		position: absolute;
+		top:252.25px;
+		left:639.58px;
+		right:1288.41px;
+		width: 21px;
+		height: 25px;
+		background: transparent url('img/Icon awesome-apple.png') 0% 0% no-repeat padding-box;
+	}
+
+	section .turno{
+		margin-left:370px;
+		right:1320px;
+		top:49px;
+		width: 230px;
+		height: 35px;
+		text-align: left;
+		font-family:'Roboto', sans-serif ;
+		font-size:26px;
+		line-height: 35px;
+		letter-spacing: 1.82px;
+		color: #707070;
+	}
+
+	section .profesionales{
+		margin-left:370px;
+		width: 466px;
+		height: 21px;
+		text-align: left;
+		font-family:'Roboto', sans-serif ;
+		font-size:16px;
+		line-height: 21px;
+		letter-spacing: 1.12px;
+		color: #707070;
+	}
+
+	.especialidades{
+		display: flex;
+		flex-direction: row;
+		margin-left:370px;
+		margin-top:20px;
+	}
+
+	.especialidades img{
+		list-style: none;
+		width: 260px;
+		height: 140px;
+		background: transparent url('img/NoPath - copia (3).png') 0% 0% no-repeat padding-box;
+	}
+
+	.especialidades img#dentista figcaption{
+		width: 66px;
+		height: 21px;
+		text-align: left;
+		font: normal normal medium 16px/21px Roboto;
+		letter-spacing: 1.12px;
+		color: #363535;
+	}
+
+	.especialidades img#obtetra figcaption{
+		width: 88px;
+		height: 21px;
+		text-align: left;
+		font: normal normal medium 16px/21px Roboto;
+		letter-spacing: 1.12px;
+		color: #363535;
+	}
+
+	.especialidades img#nutricionista figcaption{
+		width: 103px;
+		height: 21px;
+		text-align: left;
+		font: normal normal medium 16px/21px Roboto;
+		letter-spacing: 1.12px;
+		color: #363535;
+	}
+
+	.especialidades img#kinesiologo figcaption{
+		width: 94px;
+		height: 21px;
+		text-align: left;
+		font: normal normal medium 16px/21px Roboto;
+		letter-spacing: 1.12px;
+		color: #363535;
+	}
+	 
+	 
+	footer{
+		position:absolute;
+		top: 1257px;
+		left: 0px;
+		bottom:0px;
+		width: 1920px;
+		height: 250px;
+		background: #0CCB97 0% 0% no-repeat padding-box;
+		display:flex;
+		justify-content:space-between;
+	}
+
+	.icon img{
+		top:1323.96px;
+		left:847.83px;
+		right:874.68px;
+		width: 197px;
+		height: 68px;
+		background: transparent url('img/Grupo 2.png') 0% 0% no-repeat padding-box;
+	}
+
+
+	.copyright{
+		width: 415px;
+		height: 24px;
+		text-align: left;
+		font: normal normal medium 18px/24px Roboto;
+		letter-spacing: 1.26px;
+		color: #FFFFFF;
+	}
+}
+
